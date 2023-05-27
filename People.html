@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Group15</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="main.js">
+    <style>
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: white;
+            margin-top: -3%;
+        }
+        .box {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+            transition: 0.5s;
+        }
+        .box:hover {
+            height: 400px;
+        }
+        .box .imgbox {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .box .imgbox img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            opacity: 0.1;
+            transition: 0.5s;
+        }
+        .box:hover .imgbox img {
+            opacity: 1;
+        }
+        .imgcontent {
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            color: orange;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        .member {
+            text-align: center;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p>Group15</p>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="wavy-text"><a href="People.html">People</a></li>
+            <li><a href="Tools.html">Tools</a></li>
+            <li><a href="Overview.html">Overview</a></li>
+            <li><a href="Aims.html">Aims</a></li>
+            <li><a href="Plans.html">Plans </a></li>
+            <li><a href="Roles.html">Roles</a></li>
+            <li><a href="Scope.html">Scope</a></li>
+            <li><a href="Technologies.html">Technologies</a></li>
+            <li><a href="Testing.html">Testing</a></li>
+            <li><a href="Timeframe.html">Timeframe</a></li>
+            <li><a href="Risks.html">Risks</a></li>
+            <li><a href="Communications.html">Communications</a></li>
+            <li><a href="SkillsandJobs.html">Skills and Jobs</a></li>
+            <li><a href="Reflection.html">Reflection</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <h1>Our key members</h1>
+        <div class="box">
+            <div class="imgbox">
+                <img src="minhduc.jpg" alt="minhduc">
+            </div>
+            <div class="imgcontent">
+                <h5>Truong Minh Duc<br>s3864074</h5>
+                <p class="member">Member 1</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+                <img src="anhtu.jpg" alt="anhtu">
+            </div>
+            <div class="imgcontent">
+                <h5>Nguyen Anh Tu<br>s3975032</h5>
+                <p class="member">Member 2</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+                <img src="ducminh.jpg" alt="ducminh">
+            </div>
+            <div class="imgcontent">
+                <h5>Nguyen Duc Minh<br>S3978952</h5>
+                <p class="member">Member 3</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbox">
+                <img src="nhatminh.jpg" alt="nhatminh">
+            </div>
+            <div class="imgcontent">
+                <h5>Nguyen Nhat Minh<br>s4024865</h5>
+                <p class="member">Member 4</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="row">
+            <div class="column">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Development Process</a></li>
+                    <li><a href="#">Our Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>   
+                </ul>
+            </div>
+            <div class="column">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>Follow us</h4>
+                <div class="social-link" >
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>          
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+ 
