@@ -24,7 +24,7 @@ nav{
     top: 0; 
 }
 nav .logo p{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     float: left;
     color: white;
@@ -41,7 +41,7 @@ nav li{
 nav li a{
     font-size: 14px;
     color: white;
-    padding: 0px 0px;
+    padding: 0px 2px;
     text-decoration: none;
 }
 nav li a:hover{
